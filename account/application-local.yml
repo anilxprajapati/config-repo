@@ -22,3 +22,5 @@ management:
       exposure:
         include:
         - "*"
+
+message: hello local account
