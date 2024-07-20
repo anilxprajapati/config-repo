@@ -1,7 +1,6 @@
-
 server:
   port: 8082
-  
+
 # Eureka client configuration
 eureka:
   client:
@@ -15,10 +14,10 @@ spring:
     url: r2dbc:mysql://localhost:3306/test
     username: root
     password: aneelap
-    
+
 management:
   endpoints:
     web:
       exposure:
         include:
-        - "*"
+          - "*"
